@@ -1,0 +1,86 @@
+/*服务器状态表*/
+/*表头*/
+.table-tile th{
+	border: 2px solid #FFF;
+	text-align: center;
+	background-color: #aaa;
+} 
+
+.table-tile td {
+	border: 2px solid #FFF;
+	text-align: center;
+	background-color: #eee;
+}
+
+/*单元格*/
+.normal {
+	background: #a8d7be !important;
+}
+
+tr:hover .normal  {
+	background: #57b382 !important;
+}
+
+.alert {
+	background: #ffdfaa !important;
+}
+
+tr:hover .alert {
+	background: #ffb848 !important;
+}
+
+.fatal {
+	background: #ea9d95 !important;
+}
+
+tr:hover .fatal {
+	background: #d84a38 !important;
+}
+
+/*gauge - aspect.ratio*/
+.wrapper{
+	position:relative;
+	padding-top:0px;
+	padding-bottom:35%; // 350/1000 = 0.35;
+	height:0;
+	margin-top:0px;
+}
+
+#gaugegraph :first-child {
+	margin-top: 0px;
+}
+
+.gaugetable{
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:100%;
+}
+
+.badge {
+    border-radius: 9px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Grahpite Tiles */
+.tile{
+	width: 499px !important;
+	height: 263px !important;
+}
+
+/*new item ImgSnap*/
+.addbox{
+	border: dashed; 
+	border-radius: 20px !important; 
+	cursor: pointer;
+}
+
+.addbox .visual{
+	width:100px;
+}
+
+.addbox .h2{
+	float:right;
+}
